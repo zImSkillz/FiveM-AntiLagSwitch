@@ -11,7 +11,7 @@
 
 LyxosLog = {}
 
-LyxosLog.Log(source) = function()
+function LyxosLog.Log(source)
 	local source = source
 	-- Add your Log System here
 end
