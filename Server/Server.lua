@@ -37,7 +37,7 @@ CreateThread(function()
 			local playerId = playerId
 			
 			if ping[tostring(playerId)] == nil then
-				ping[tostring(playerId)] = 3
+				ping[tostring(playerId)] = 15
 			end
 			
 			local plyPed = GetPlayerPed(playerId)
